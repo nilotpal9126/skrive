@@ -24,6 +24,15 @@
     </section>
     <section id="contact">
         <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
         <p>Email: <a href="mailto:polycassignments@gmail.com">polycassignments@gmail.com</a> | <a href="mailto:admin@polycassignments.com">admin@polycassignments.com</a></p>
         <p>Phone: +44 7442 835007</p>
         <p>WhatsApp: <a href="https://chat.whatsapp.com/BIgbUOLhFEeK1gxI4KXLtU">Join our WhatsApp Group</a></p>
@@ -33,8 +42,9 @@
         <p>At Skrive, we are dedicated to providing excellent work related to various courses and disciplines. Our team of experienced writers ensures that you receive top-quality content tailored to your academic needs.</p>
     </section>
     <footer>
-        <p>&copy; 2024 Skrive. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Skrive. All rights reserved.</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
+
